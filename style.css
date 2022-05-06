@@ -108,13 +108,19 @@
 
 .right-title {
     font-size: 20px;
-    color: #eeeeee;
+    color: #ffffff;
 }
 
 .right-title-2 {
     font-size: 20px;
-    color: #eeeeee;
+    color: #ffffff;
     padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.right-title-3 {
+    font-size: 20px;
+    color: #ffffff;
     padding-left: 3rem;
 }
 
@@ -123,19 +129,18 @@
 }
 .about-me-contents {
     font-size: 16px;
-    color: #eeeeee;
+    color: #ffffff;
     text-align: justify;
 }
 
-
-
 .experience-contents,
 .education-contents,
+.education-contents-2,
 .awards-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 2rem;
-    color: #F1F8FD;
+
+    color: #ffffff;
     padding-left: 3rem;
     padding-top: 1rem;
 }
@@ -153,6 +158,12 @@
     padding-top: .2rem;
 }
 
+.exp-right {
+    font-size: 16px;
+    padding-right: 3rem;
+    text-align: justify;
+}
+
 .exp-description {
     padding-top: .2rem;
 }
@@ -163,15 +174,21 @@
     font-size: 16px;
 }
 
-.exp-right {
-    font-size: 16px;
-    padding-right: 3rem;
-    text-align: justify;
-}
-
 .exp-desc,
 .education-desc,
 .awards-desc {
     font-size: 16px;
-    padding-left: 5px;
 }
+
+.education-school-name-2, 
+.education-time-period-2 {
+    font-size: 16px;
+    color: #F1F8FD;
+}
+
+.education-subject-2, 
+.education-desc-2 {
+    font-size: 16px;
+    color: #F1F8FD;
+}
+
