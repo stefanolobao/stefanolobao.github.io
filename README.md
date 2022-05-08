@@ -1,2 +1,3 @@
 # stefanolobao.github.io
-Currículo 
+
+Currículo
