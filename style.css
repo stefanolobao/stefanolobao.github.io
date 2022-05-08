@@ -7,8 +7,8 @@
 }
 
 .resume-contents {
-    min-height: 100vh;
-    width: 80%;
+    min-height: 105vh;
+    width: 74%;
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -28,10 +28,6 @@
     border-radius: 0px 30px 30px 0px;
 }
 
-.left-section-contents{
-    padding: 2rem 2rem;
-}
-
 .profile {
     width: 100%;
     border-bottom: 1rem solid #031136;
@@ -48,7 +44,7 @@
 
 .name {
     color: #D6DBDF;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -64,45 +60,42 @@
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 
 .contact-info ul {
-    padding-top: 1rem;
+    padding-top: .2rem;
 }
 
 .left-title {
     color: #eeeeee;
     font-size: 20px;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-left: 2rem;
 }
 
-.contact-info ul li,
-.references ul li {
+.contact-info ul li {
     padding-left: 2rem;
     color: #eeeeee;
 }
 
-.contact-info ul li i,
-.references ul li i {
+.contact-info ul li i {
     padding-right: 1rem;
     font-size: 16px;
     color: #eeeeee;
 }
 
-.skills ul {
-    padding-top: 1rem;
-    padding-left: 2rem;
-}
-.skills ul li p {
-    padding-left: 1rem;
-    padding-right: 2rem;
+.skills ul li {
     color: #eeeeee;
+    padding-top: .2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
     text-align: justify;
 }
 
+.skills ul li i {
+    padding-right: 1rem;
+    color: #eeeeee;
+}
+
 .right-section-contents {
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-bottom: 3rem;
-    padding-right: 3rem;
+    padding: 3rem;
     border-bottom: 1rem solid #232253;
 }
 
@@ -118,15 +111,20 @@
     padding-left: 3rem;
 }
 
-.right-title-3 {
+.right-title-3{
     font-size: 20px;
     color: #ffffff;
+    padding-top: 1rem;
     padding-left: 3rem;
 }
 
-.gap {
-    padding-bottom: 2rem;
+.right-title-4 {
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-left: 3rem;
 }
+
 .about-me-contents {
     font-size: 16px;
     color: #ffffff;
@@ -139,56 +137,39 @@
 .awards-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
     color: #ffffff;
-    padding-left: 3rem;
-    padding-top: 1rem;
+    font-size: 16px;
+    text-align: justify;
 }
 
 .exp-company-name,
 .education-school-name,
+.education-school-name-2,
 .awards-company-name {
-    font-size: 16px;
+    padding-top: .5rem;
+    padding-left: 3rem;
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
+.education-time-period-2,
 .awards-time-period {
-    font-size: 16px;
-    padding-top: .2rem;
-}
-
-.exp-right {
-    font-size: 16px;
-    padding-right: 3rem;
-    text-align: justify;
-}
-
-.exp-description {
-    padding-top: .2rem;
+    padding-top: .3rem;
+    padding-left: 3rem;
 }
 
 .exp-position,
 .education-subject,
+.education-subject-2,
 .awards-name {
-    font-size: 16px;
+    padding-top: .5rem;
+    padding-right: 3rem;
 }
 
-.exp-desc,
+.exp-description,
 .education-desc,
+.education-desc-2,
 .awards-desc {
-    font-size: 16px;
+    padding-top: .3rem;
+    padding-right: 3rem;
 }
-
-.education-school-name-2, 
-.education-time-period-2 {
-    font-size: 16px;
-    color: #F1F8FD;
-}
-
-.education-subject-2, 
-.education-desc-2 {
-    font-size: 16px;
-    color: #F1F8FD;
-}
-
